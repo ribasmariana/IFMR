@@ -1,0 +1,61 @@
+body{
+  background-color:rgb(218, 220, 220);
+}
+
+.cabecalho{
+  padding: 20px;
+  text-align: center;
+  color: rgba(60, 8, 120, 0.865);
+  font-size: 62px;
+}
+
+nav li{
+  display: inline;
+  margin: 0 auto 0 35px;
+  text-transform: uppercase;
+  line-height: 50px;
+}
+
+#menu{
+  text-align: center;
+  background-color: rgba(60, 8, 120, 0.865);
+}
+
+nav a{
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+#imagem{
+width: 100%;
+height: 500px;
+}
+
+.texto{
+  padding: 20px;
+  text-align: center;
+  font-size: 15px;
+}
+
+#missao{
+  font-size: 20px;
+  font-style:italic;
+  padding: 37px;
+  text-align: center;
+}
+
+strong{
+  color:rgba(60, 8, 120, 0.865);
+}
+
+footer {
+  margin-top: 10%;
+  text-align: center;
+  background: rgba(60, 8, 120, 0.865);
+  padding: 40px;
+}
+
+.copyright {
+  color: #FFFFFF;
+  font-size: 13px;
+}

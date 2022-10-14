@@ -1,0 +1,57 @@
+body{
+    background-color:rgb(218, 220, 220);}
+.cabecalho{
+    padding: 20px;
+    text-align: center;
+    color: rgba(60, 8, 120, 0.865);
+    font-size: 62px;}
+nav li{
+    display: inline;
+    margin: 0 auto 0 35px;
+    text-transform: uppercase;
+    line-height: 50px;}
+#menu{
+    text-align: center;
+    background-color: rgba(60, 8, 120, 0.865);}
+nav a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;}
+.cursos li{
+    display: inline-block;
+    text-align: center;
+    margin:3% 1% 2% 2%;
+    width: 21%;
+    box-sizing: border-box;
+    border: 2px solid rgba(60, 8, 120, 0.865);
+    border-radius: 10px;
+    padding: 40px 30px;
+}
+
+.cursos li:hover{
+    border-color: rgb(0, 0, 0);
+    background-color: antiquewhite;}
+
+img{
+    width: 100%;
+    }
+
+.cursos h3{
+    padding-top: 10px;}
+
+.cursos h2{
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px;
+}
+
+footer {
+    margin-top: 30%;
+    text-align: center;
+    background: rgba(60, 8, 120, 0.865);
+    padding: 40px;
+}
+
+.copyright {
+    color: #FFFFFF;
+    font-size: 13px;
+}
