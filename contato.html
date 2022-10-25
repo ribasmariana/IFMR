@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="8">
+        <title>IFMR - Instituto MR</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="stylecontato.css">
+    </head>
+        <body>
+            <header>
+                <h1 class="cabecalho">Instituto Fundação MR</h1>
+                    <nav>
+                        <ul id="menu">
+                            <li><a href="index.html">Página inicial</a></li>
+                            <li><a href="graduacao.html">Graduação</a></li>
+                            <li><a href="posgraduacao.html">Pós-Graduação</a></li>
+                            <li><a href="contato.html">Pré-inscrição</a></li>
+                        </ul>
+                    </nav>
+            </header>
+                <main>
+                    <form>
+                        <label for="nomecompleto">Nome completo</label>
+                        <input type="text" id="nomecompleto" class="input-padrao" required>
+
+                        <label for="email">Email</label>
+                        <input type="email" id="email" class="input-padrao" required placeholder="seuemail@seuemail.com">
+
+                        <label for="fone">Telefone</label>
+                        <input type="tel" id="fone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
+
+                        <label for="mensagem">Mensagem</label>
+                        <textarea cols="40" rows="10" id="mensagem" class="input-padrao" required></textarea>
+
+                        <fieldset>
+                            <legend>Como prefere nosso contato?</legend>
+                            <label for="emailcontato"> <input type="radio" value="email" name="formacont" id="emailcontato"> Email</label>
+    
+                            <label for="whatscontato"> <input type="radio" value="whatsapp" name="formacont" id="whatscontato" checked> WhatsApp</label>
+
+                            <label for="ligacontato"> <input type="radio" value="liga" name="formacont" id="ligacontato"> Ligação</label>
+                        </fieldset>
+
+                        <fieldset>
+                            <legend>Qual horário prefere ser atendido?</legend>
+                            <select>
+                                <option>Manhã</option>
+                                <option>Tarde</option>
+                                <option>Noite</option>
+                            </select>
+                        </fieldset>
+                        <label class="checkbox"><input type="checkbox" checked>Gostaria de receber nossas novidades por email?</label>
+                        
+                        <input type="submit" value="ENVIAR" class="enviar">
+
+                    </form>
+                </main>
+                    <footer>
+                        <p class="copyright">&copy; Copyright IFMR - 2022</p>
+                    </footer>
+        </body>
+    </html>

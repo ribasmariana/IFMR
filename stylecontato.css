@@ -1,0 +1,73 @@
+body{
+    background-color:rgb(218, 220, 220);}
+.cabecalho{
+    padding: 20px;
+    text-align: center;
+    color: rgba(60, 8, 120, 0.865);
+    font-size: 62px;}
+nav li{
+    display: inline;
+    margin: 0 auto 0 35px;
+    text-transform: uppercase;
+    line-height: 50px;}
+#menu{
+    text-align: center;
+    background-color: rgba(60, 8, 120, 0.865);}
+nav a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;}
+main{
+    width: 940px;
+    margin: 0 auto;}
+
+form{
+    margin: 40px 0;}
+
+form label, form legend{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+fieldset{
+    padding: 13px;
+}
+
+.input-padrao{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 10px;
+    width: 50%;
+}
+
+.checkbox{
+    padding: 20px 0;
+}
+
+.enviar {
+    width:40%;
+    padding: 15px 0;
+    background: rgba(60, 8, 120, 0.865);
+    color: rgba(255, 255, 255, 0.865);
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.enviar:hover {
+    background:rgba(81, 10, 162, 0.865);
+    transform: scale(1.2);
+}
+
+
+footer {
+    text-align: center;
+    background: rgba(60, 8, 120, 0.865);
+    padding: 40px;}
+    
+.copyright {
+    color: #FFFFFF;
+    font-size: 13px;}
